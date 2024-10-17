@@ -3540,7 +3540,8 @@ table.alt tbody tr td {
 	position: relative;
 	text-align: center;
 	width: 100%;
-	z-index: 10001;
+	z-index: 900
+	;
 }
 
 #header > .logo {
@@ -4938,6 +4939,7 @@ body {
 	overflow-y: auto; /* Makes the modal scrollable if content exceeds max-height */
 	border-radius: 8px;
 	box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+	z-index: 9999;
 }
 
 .close {
