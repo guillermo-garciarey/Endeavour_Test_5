@@ -4763,12 +4763,13 @@ body::before {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-image: url("../../images/BetterLogo.png");
+	background-image: url("/images/BetterLogo.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
+	background-attachment: fixed; /* Ensures the image stays fixed */
 	opacity: 0.1; /* Adjust this value to control transparency */
-	z-index: -1; /* Put it behind everything else */
+	z-index: -1; /* Keep it behind everything else */
 	pointer-events: none; /* Make sure it doesn't interfere with clicks */
 }
 
