@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--
+	Inverse by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Endeavour Group</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<section id="header-banner" class="gradient-background">
+			<header id="header" class="alt">
+				<a href="index.html">
+					<img                
+					src="images/LogoWithName.png" alt="Logo Image" class="header-img">
+					
+
+					
+				</a>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="services.html">What We Offer</a></li>
+						
+						<li class="current"><a href="about.html">About Us</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="events.html">Events</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		
+		</section>
+
+		
+
+		
+    </section>
+
+	
+				
+
+		<!-- Three -->
+<div id="three">
+    <div class="wrapper special style3">
+        <div class="inner">
+            <header class="major">
+                <h2 class="heading">About Us</h2>
+            </header>
+            <div class="profiles">
+                <!-- Alan's Profile -->
+                <div class="profile">
+                    <div class="image">
+                        <img src="images/Alan.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>Alan Hackett</h3>
+                       
+                        <p>MA, BA, Dip. MIAHIP.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button small" onclick="openModal('alan-modal')">More</a></li>
+                        </ul>
+						<a href="#" class="icon brands fa-linkedin fa-2x"></a>
+						<a href="#" class="icon brands fa-whatsapp fa-2x"></a>
+                    </div>
+                </div>
+                <!-- Barbara's Profile -->
+                <div class="profile">
+                    <div class="image">
+                        <img src="images/Barbara.jpg" alt="" />
+                    </div>
+                    <div class="content">
+                        <h3>Barbara O'Connell</h3>
+                        
+                        <p>MA, BA, MIAHIP, MIACP, ECP.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button small" onclick="openModal('barbara-modal')">More</a></li>
+							
+							
+                        </ul>
+						<a href="#" class="icon brands fa-linkedin fa-2x"></a>
+						<a href="#" class="icon brands fa-whatsapp fa-2x"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Alan Modal -->
+<div id="alan-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('alan-modal')">&times;</span>
+        
+        <p>Alan is an experienced, accredited psychotherapist working with adults with a diverse range of presenting issues. He also specialises in working with adolescents and young people. He facilitates a creative space where he works towards understanding each adolescent’s unique form of expression, encouraging this to assist them in managing their environments more effectively.</p>
+
+		<p>He has experience of facilitating growth-promoting groups which include families affected by addiction, and also young people in aftercare recovery. He is also an experienced advanced process group facilitator and facilitator of experiential personal development workshops.</p>
+
+		<p>Alan has a keen interest in all things attachment related, and in particular, relational and developmental trauma. He has a variety of pertinent trainings undertaken in this area and continues to add to his knowledge base.</p>
+
+		<p>Alan is interested in keeping an ongoing enquiry into what is going on beneath conscious awareness and bringing this to the foreground both in his psychotherapy practice and in his practice as a Clinical Supervisor.</p>
+		</div>
+</div>
+
+<!-- Barbara Modal -->
+<div id="barbara-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('barbara-modal')">&times;</span>
+        
+        <p>Barbara is an experienced, accredited psychotherapist who works with a variety of presenting issues with both individuals and couples. She is also an accredited supervisor working with individuals and groups.</p>
+
+		<p>Barbara has extensive experience in working with groups of all levels and abilities. She has facilitated personal development groupings for many years with individuals who have physical and sensory disabilities, as well as therapeutic women’s groups of individuals with advanced mental health issues.</p>
+
+		<p>Barbara has over 8 years of experience working within a psychotherapy training context as a group facilitator and lecturer, and in the area of course development and strategic planning. She is currently involved in co-facilitating advanced therapeutic process groups for therapists and individuals who have significant personal development experience and are seeking a more challenging, growth-oriented environment.</p>
+
+		<p>She has vast experience in creating and co-facilitating experiential personal development workshops on a variety of themes. Barbara also provides training to psychotherapists in areas primarily related to attachment, trauma, and neuroscience.</p>
+
+</div>
+</div>
+
+
+			
+
+
+
+				
+
+		
+				
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<!-- JavaScript code -->
+			<script>
+				function openModal(modalId) {
+					document.getElementById(modalId).style.display = "block";
+				}
+
+				function closeModal(modalId) {
+					document.getElementById(modalId).style.display = "none";
+				}
+
+				window.onclick = function(event) {
+					var alanModal = document.getElementById('alan-modal');
+					var barbaraModal = document.getElementById('barbara-modal');
+					if (event.target == alanModal) {
+						alanModal.style.display = "none";
+					}
+					if (event.target == barbaraModal) {
+						barbaraModal.style.display = "none";
+					}
+				}
+			</script>
+
+	</body>
+</html>
