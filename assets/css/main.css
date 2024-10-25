@@ -4977,3 +4977,10 @@ body {
 .pink-link strong {
 	color: inherit; /* This ensures the strong tag takes the color of the parent anchor */
 }
+
+/* Scale up the background image for larger screens */
+@media (min-width: 1024px) {
+    body::before {
+        background-size: 70%; /* Adjust to your preferred scale */
+    }
+}
